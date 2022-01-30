@@ -1,0 +1,20 @@
+{
+    "name": "joris/skeleton-plugin",
+    "description": "skeleton of a plugin",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joris Belder",
+            "email": "joris@brileend.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Inc\\": "./includes",
+        "Admin\\": "./admin",
+        "Public\\": "./public"
+      }
+    }
+}
